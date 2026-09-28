@@ -1,0 +1,11 @@
+Package: openai-codex-cli
+Section: devel
+Priority: optional
+Maintainer: coplo <dayearnew@gmail.com>
+Homepage: https://github.com/openai/codex
+Depends: bubblewrap
+Recommends: ripgrep
+Description: OpenAI Codex command-line coding agent
+ Codex CLI is OpenAI's local command-line coding agent. This package installs
+ the official standalone Linux release and uses APT as the software update
+ mechanism while leaving per-user Codex configuration and state untouched.
